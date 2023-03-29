@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+  background-color: #0e1323;
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+}
+.user {
+  width: 255px;
+  background: #1c204b;
+  border-radius: 15px;
+}
+
+.user-header {
+  background-color: #5747ea;
+  border-radius: 15px;
+  padding: 37px 0 0 32px;
+  height: 354px;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-header img {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border: 3px solid white;
+  border-radius: 50%;
+  margin-bottom: 43px;
+}
+
+.user-header span {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #bbc0ff;
+  margin-bottom: 3px;
+}
+
+.user-header h3 {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 47px;
+
+  color: #ffffff;
+}
+
+.period {
+  list-style: none;
+  padding: 26px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+.period li {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #7078c9;
+}
+.active {
+  color: white !important;
+}
+
+.card {
+  border-radius: 15px;
+
+  padding-top: 45px;
+  height: 100px;
+
+  background-repeat: no-repeat;
+  background-position: top -14px right 14px;
+  width: 255px;
+}
+
+.main {
+  background: #1c204b;
+  border-radius: 15px;
+  padding: 29px 35px 32px 30px;
+  color: white;
+  border: 1px solid #1c204b;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.card h1 {
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 66px;
+  margin-bottom: 8px;
+}
+
+.card span {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #bbc0ff;
+}
+
+.categories {
+  display: flex;
+  gap: 30px;
+  max-width: 825px;
+  flex-wrap: wrap;
+}
+
+.card--work {
+  background-color: #ff8b64;
+  background-image: url("./images/icon-work.svg");
+}
+
+.card--play {
+  background-color: #55c2e6;
+  background-image: url("./images/icon-play.svg");
+}
+.card--study {
+  background-color: #ff5e7d;
+  background-image: url("./images/icon-study.svg");
+}
+.card--exercise {
+  background-color: #4bcf82;
+  background-image: url("./images/icon-exercise.svg");
+}
+.card--social {
+  background-color: #7335d2;
+  background-image: url("./images/icon-social.svg");
+}
+.card--care {
+  background-color: #f1c75b;
+  background-image: url("./images/icon-self-care.svg");
+}
